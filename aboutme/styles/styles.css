@@ -1,31 +1,65 @@
 body {
-  text-align: center;
-}
-
-nav {
   background-color: steelblue;
-  padding: 10px;
 }
 
-a {
+header {
   color: white;
-  margin: 40px;
-}
-
-h1 {
-  color: steelblue;
 }
 
 img {
-  width: 800px;
-  border: 4px solid steelblue;
+  width: 125px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 28px;
 }
 
-p {
-  padding: 10px;
+#container {
+  text-align: center;
+  margin-top: -20px;
+}
+
+#list {
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+}
+
+h1:hover {
+  color: black;
+}
+
+header {
+  text-align: center;
+}
+
+header div {
+  margin: 0 auto;
+  width: 450px
+}
+
+header h2 {
+  font-size: 20px;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main p {
+  color: white;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: center;
+  width: 210px;
 }
 
 footer {
-  background-color: steelblue;
-  color: white;
+  margin-top: 4%;
+}
+
+footer div {
+  text-align: center;
+  margin: 0 auto;
+  width: 325px
 }
