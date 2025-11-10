@@ -231,20 +231,49 @@ footer .social img {
 .river-grid {
     display: grid;
     grid-template-columns: repeat(51, 1fr);
-    grid-template-rows: repeat(100, 2fr);
+    grid-template-rows: repeat(42, 2fr);
+    font-size: 18px;
+}
+
+#idaho-img, #utah-img, #arizona-img {
+    width: 100%;
+    box-shadow: 5px 5px 10px #247ba0;
+}
+
+#idaho-info, #utah-info, #arizona-info {
+    background-color: #5e503f;
+    padding: 2em;
+    box-shadow: 5px 5px 10px #5e503f;
 }
 
 #idaho-img {
     grid-column: 4/27;
     grid-row: 3/13;
-    width: 100%;
 }
 
 #idaho-info {
     grid-column: 25/50;
-    grid-row: 4/14;
-    background-color: #5e503f;
-    padding: 10px;
+    grid-row: 5/14;
+}
+
+#utah-img {
+    grid-column: 4/27;
+    grid-row: 17/27;
+}
+
+#utah-info {
+    grid-column: 25/50;
+    grid-row: 19/27;
+}
+
+#arizona-img {
+    grid-column: 4/27;
+    grid-row: 31/41;
+}
+
+#arizona-info {
+    grid-column: 25/50;
+    grid-row: 33/42;
 }
 
 
