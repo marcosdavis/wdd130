@@ -226,6 +226,27 @@ footer .social img {
     padding-top: 15px;
 }
 
+/* rivers.html */
+
+.river-grid {
+    display: grid;
+    grid-template-columns: repeat(51, 1fr);
+    grid-template-rows: repeat(100, 2fr);
+}
+
+#idaho-img {
+    grid-column: 4/27;
+    grid-row: 3/13;
+    width: 100%;
+}
+
+#idaho-info {
+    grid-column: 25/50;
+    grid-row: 4/14;
+    background-color: #5e503f;
+    padding: 10px;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
