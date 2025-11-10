@@ -232,19 +232,25 @@ footer .social img {
     display: grid;
     grid-template-columns: repeat(51, 1fr);
     grid-template-rows: repeat(42, 2fr);
-    font-size: 18px;
+    font-size: 19px;
 }
 
 #idaho-img, #utah-img, #arizona-img {
     width: 100%;
-    box-shadow: 5px 5px 10px #247ba0;
+    box-shadow: 6px 6px 10px #247ba0;
 }
 
 #idaho-info, #utah-info, #arizona-info {
     background-color: #5e503f;
     padding: 2em;
-    box-shadow: 5px 5px 10px #5e503f;
+    box-shadow: 8px 8px 10px #5e503f;
+    text-align: left;
+    align-content: center;
 }
+
+#idaho-info h2, #utah-info h2, #arizona-info h2 {
+    font-size: 42px;
+} 
 
 #idaho-img {
     grid-column: 4/27;
