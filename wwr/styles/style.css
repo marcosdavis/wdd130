@@ -226,7 +226,7 @@ footer .social img {
     padding-top: 15px;
 }
 
-/* rivers.html */
+/* <--- rivers.html ---> */
 
 .river-grid {
     display: grid;
@@ -237,11 +237,12 @@ footer .social img {
 
 #idaho-img, #utah-img, #arizona-img {
     width: 100%;
-    box-shadow: 6px 6px 10px #247ba0;
+    box-shadow: 8px 8px 10px #247ba0;
+    border: 15px solid #5e503f;
 }
 
 #idaho-info, #utah-info, #arizona-info {
-    background-color: #5e503f;
+    background-color: #247ba0;
     padding: 2em;
     box-shadow: 8px 8px 10px #5e503f;
     text-align: left;
