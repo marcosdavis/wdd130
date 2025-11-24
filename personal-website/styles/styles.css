@@ -25,5 +25,25 @@
     margin: 50px;
 }
 
+.intro-grid {
+    display: grid;
+    height: 1000px;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: 200px 300px 200px;
+}
 
+.intro-grid h1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
 
+.intro-grid p {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.intro-grid img {
+    grid-column: 3/4;
+    grid-row: 1/4;
+    height: 600px;
+}
