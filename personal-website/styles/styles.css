@@ -111,3 +111,23 @@
 #submit-btn button {
     font-size: 20px;
 }
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 10fr;
+    margin: 50px 20px 20px 20px;
+}
+
+#linkedin-icon, #facebook-icon {
+    justify-self: center;
+}
+
+#linkedin-icon img, #facebook-icon img {
+    height: 75px;
+    justify-content: center;
+}
+
+#site-plan {
+    justify-self: right;
+    align-self: center;
+}
