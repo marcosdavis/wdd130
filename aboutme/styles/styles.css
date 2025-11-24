@@ -1,26 +1,34 @@
-.f-img {
-  display: inline;
-  width: 300px;
-  margin: 30px 90px;
-  border: 17px solid rgb(85, 85, 85);
-  border-radius: 50%;
-}
-
-footer {
-  margin: 0;
-  background-color: gray;
-  display: flex;
-  justify-content: center;
-}
-
-#hero {
-  width: 100%;
-}
-
-div {
-  margin: 0;
-}
-
 body {
-  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#pic {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+#first-txt {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  align-self: center;
+  justify-self: center;
+  font-size: 170px;
+  z-index: 1;
+}
+
+#second-txt {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  align-self: center;
+  justify-self: center;
+  font-size: 100px;
+  color: darkred;
+}
+
+#sec-col {
+  background-color: grey;
+  grid-column: 2/3;
+  grid-row: 1/3;
 }
