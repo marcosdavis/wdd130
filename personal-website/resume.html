@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="dropdown.js"></script>
 </head>
 <body>
     <div id="content">
         <header>
-            <a href="index.html">
-                <img src="images/personal-website-logo.png" alt="Logo for Marcos Davis">
-            </a>
+             <div class="dropdown">
+                <img src="images/personal-website-logo.png" alt="Logo for Marcos Davis" id="home-pic" onclick="myFunction()">
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="resume.html">Resume</a>
+                </div>
+            </div> 
             <nav>
                 <a href="index.html">Home</a>
                 <a href="portfolio.html">Portfolio</a>
