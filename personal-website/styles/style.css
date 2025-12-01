@@ -256,3 +256,46 @@ body {
 #site-plan a:hover {
     color: var(--accent2-color);
 }
+
+/* Portfolio.html */
+
+main h1 {
+    justify-self: center;
+    font-size: 100px;
+    font-family: var(--heading-font);
+}
+
+.portfolio-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.proj-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proj-card img {
+    height: 25em;
+    margin-bottom: 0;
+}
+
+.proj-card div {
+    background-color: var(--secondary-color);
+}
+
+.proj-card h3 {
+    justify-self: center;
+    font-size: 40px;
+    margin: 0;
+}
+
+.proj-card div p {
+    padding: 15px;
+    width: 30em;
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+}
