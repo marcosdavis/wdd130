@@ -261,7 +261,7 @@ body {
 /* Portfolio.html */
 
 main h1 {
-    justify-self: center;
+    text-align: center;    
     font-size: 100px;
     font-family: var(--heading-font);
 }
@@ -308,7 +308,7 @@ main h1 {
 }
 
 #github {
-    justify-self: center;
+    text-align: center;
 }
 
 #github a {
