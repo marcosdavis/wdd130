@@ -25,16 +25,6 @@ body {
     margin: 0 auto;
 }
 
-#nav-grid {
-    display: grid;
-    grid-template-columns: 1fr 3fr 2fr;
-    grid-template-rows: 30px 100px;
-}
-
-#home-pic {
-    height: 100px;
-}
-
 /* Dropdown menu */
 /* Dropdown button on hover & focus */
 #home-pic:hover {
@@ -76,7 +66,18 @@ body {
 
 /* End of dropdown menu */
 
+#nav-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    grid-template-rows: 1fr 5fr;
+}
+
+#home-pic {
+    height: 100px;
+}
+
 #nav-btns {
+    display: flex;
     grid-column: 3/4;
     grid-row: 2/3;
     margin: 0 auto;
@@ -269,22 +270,28 @@ main h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    align-content: space-between;
+    margin-bottom: 10em;
 }
 
 .proj-card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .proj-card img {
     height: 25em;
     margin-bottom: 0;
+    border: solid var(--primary-color);
+    border-width: 10px 10px 10px 10px;
+    box-shadow: 5px 0 6px var(--accent2-color);
 }
 
 .proj-card div {
     background-color: var(--secondary-color);
+    box-shadow: 5px 10px 6px var(--accent2-color);
 }
 
 .proj-card h3 {
@@ -294,8 +301,28 @@ main h1 {
 }
 
 .proj-card div p {
-    padding: 15px;
+    padding: 0 15px 0 15px;
     width: 30em;
     font-family: var(--paragraph-font);
     font-size: 20px;
+}
+
+#github {
+    justify-self: center;
+}
+
+#github a {
+    justify-self: center;
+    align-self: center;
+}
+
+#github a img {
+    max-height: 8em;
+    border-radius: 5em;
+}
+
+#github div {
+    justify-self: center;
+    color: var(--accent2-color);
+    font-family: var(--paragraph-font);
 }
