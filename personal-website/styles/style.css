@@ -295,7 +295,7 @@ main h1 {
 }
 
 .proj-card h3 {
-    justify-self: center;
+    text-align: center;
     font-size: 40px;
     margin: 0;
 }
