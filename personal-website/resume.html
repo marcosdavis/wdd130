@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="content">
-        <header>
+        <header id="nav-grid">
              <div class="dropdown">
                 <img src="images/personal-website-logo.png" alt="Logo for Marcos Davis" id="home-pic" onclick="myFunction()">
                 <div id="myDropdown" class="dropdown-content">
@@ -18,7 +18,7 @@
                     <a href="resume.html">Resume</a>
                 </div>
             </div> 
-            <nav>
+            <nav id="nav-btns">
                 <a href="index.html">Home</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="resume.html">Resume</a>
@@ -28,12 +28,10 @@
             <div id="hero-box">
                 <img src="images/oregon_coast.jpg" alt="Oregon coast" id="hero-img">
             </div>
-            <section id="hero-msg">
-                <img src="images/IMG_3764.jpeg" alt="headsot of Marcos Davis">
-                <h4>This page goes into detail about my education, work experience, service, leadership, and skills.</h4>
-            </section>
+            <img src="images/IMG_3764.jpeg" alt="headsot of Marcos Davis" id="head-shot">
+            <h4 id="hero-msg">This page goes into detail about my education, work experience, service, leadership, and skills.</h4>
         </div>
-        <main class="resume grid">
+        <main class="resume-grid">
             <section id="edu-info" class="resume-info">
                 <h2>Education</h2>
                 <ul>
@@ -150,16 +148,18 @@
                 </ul>
             </section>
         </main>
-        <footer>
-            <div>
+        <footer class="footer-grid">
+            <div id="linkedin-icon">
                 <a href="https://www.linkedin.com/in/marc-davis03/" target="_blank">
                     <img src="images/linkedin-icon-black.png" alt="LinkedIn logo">
                 </a>
+            </div>
+            <div id="facebook-icon">
                 <a href="https://www.facebook.com/profile.php?id=100086617332352" target="_blank">
                     <img src="images/facebook.png" alt="Facebook logo">
                 </a>
             </div>
-            <div>
+            <div id="site-plan">
                 <a href="site-plan.html">Site Plan</a>
             </div>
         </footer>
