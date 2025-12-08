@@ -369,7 +369,7 @@ main h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 0 10px 10px;
+    margin: 0 2em 0 2em;
 }
 
 .resume-grid h2 {
@@ -377,7 +377,7 @@ main h1 {
     font-size: 3em;
 }
 
-.resume-grid ul {
+.main-ul {
     font-family: var(--paragraph-font);
     font-size: 1.2em;
 }
@@ -388,6 +388,7 @@ main h1 {
     margin: 15px;
     padding: 0 2em 0 2em;
     background-color: var(--accent2-color);
+    font-size: 1.em;
 }
 
 #edu-info {
