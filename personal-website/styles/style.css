@@ -350,6 +350,7 @@ main h1 {
     grid-row: 2/3;
     border: var(--primary-color) solid 5px;
     border-radius: 5em;
+    margin-bottom: 1.5em;
 }
 
 #hero-msg {
@@ -361,6 +362,7 @@ main h1 {
     font-size: 1.4em;
     text-align: center;
     background-color: var(--accent1-color);
+    border-radius: 3em;
     align-content: center;
     margin: 25px 0 25px 0;
 }
