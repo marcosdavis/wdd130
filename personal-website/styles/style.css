@@ -112,6 +112,7 @@ body {
     grid-row: 1/2;
     font-size: 115px;
     font-family: var(--heading-font);
+    justify-self: left;
 }
 
 .intro-grid p {
@@ -219,6 +220,7 @@ body {
     font-size: 20px;
     background-color: var(--accent2-color);
     color: var(--primary-color);
+    cursor: pointer;
 }
 
 .footer-grid {
