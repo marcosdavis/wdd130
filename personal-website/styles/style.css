@@ -281,6 +281,7 @@ main h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 2em 0 2em 0;
 }
 
 .proj-card img {
